@@ -35,9 +35,6 @@ function playRound(playerSelection, computerSelection) {
     } else {
         message = "Invalid input! Try again!";
     }
-    console.log("NEW ROUND")
-    console.log(player);
-    console.log(computer);
     alert(message);
     playRound(playerSelection, computerSelection);
 }
